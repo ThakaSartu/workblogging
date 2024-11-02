@@ -77,6 +77,10 @@ p:first-of-type {
     display:block;
   }
 
+.mermaid { width: 100%;}
+.mermaid:hover { width:150%;}
+
+
 
   img[src*="cloudfront"] {width: 100%;
     border-bottom:solid 10px  #FCE30070;}
