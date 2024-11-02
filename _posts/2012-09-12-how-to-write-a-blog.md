@@ -1,10 +1,15 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Jez like Mars"
 published: true
 ---
 
 # Welcome
+Though located a world away, Lake Salda, Turkey, shares similar mineralogy as Jezero Crater on Mars.
+
+[<img src="https://eoimages.gsfc.nasa.gov/images/imagerecords/147000/147041/lakesalda_oli_2020159_th.jpg" alt="NASA Earth Observatory image by Lauren Dauphin, using Landsat data from the U.S. Geological Survey. "](https://eoimages.gsfc.nasa.gov/images/imagerecords/147000/147041/lakesalda_oli_2020159_th.jpg)
+[<img src="https://eoimages.gsfc.nasa.gov/images/imagerecords/147000/147041/lakesalda_oli_2020159_lrg.jpg" alt="NASA Earth Observatory image by Lauren Dauphin, using Landsat data from the U.S. Geological Survey. "](https://eoimages.gsfc.nasa.gov/images/imagerecords/147000/147041/lakesalda_oli_2020159_lrg.jpg)
+[<img src="https://eoimages.gsfc.nasa.gov/images/imagerecords/147000/147041/lakesalda_oli_2020159.jpg" alt="NASA Earth Observatory image by Lauren Dauphin, using Landsat data from the U.S. Geological Survey. "](https://eoimages.gsfc.nasa.gov/images/imagerecords/147000/147041/lakesalda_oli_2020159.jpg)
 
 **Hello world**, this is my first Jekyll blog post.
 

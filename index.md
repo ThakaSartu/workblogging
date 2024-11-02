@@ -13,7 +13,7 @@ A new composite image built from 15 satellite passes shows the Arctic and northe
 [<img src="https://eoimages.gsfc.nasa.gov/images/imagerecords/78000/78349/arctic_vir_2012147_lrg.jpg" alt="" />](https://eoimages.gsfc.nasa.gov/images/imagerecords/78000/78349/arctic_vir_2012147_lrg.jpg)
 
 
-[Solid Steel Radio Show: Mixed by DK, Strictly Kev, PC, The Butch Cassidy Sound System (Nov 22, 2004)](https://youtu.be/e_N4TYS1l60?t=4509)
+
 
 
 {% include paginator.md %}
@@ -37,7 +37,7 @@ gitGraph:
 </div> 
 
 
-[Solid Steel Radio Show: Mixed by DK, Strictly Kev, PC, The Butch Cassidy Sound System (Nov 22, 2004)](https://youtu.be/e_N4TYS1l60?t=4509)
+[Solid Steel Radio Show: Mixed by DK, Strictly Kev, PC, The Butch Cassidy Sound System (Nov 22, 2004)](https://youtu.be/e_N4TYS1l60?t=4509) 
 
 
 [Tracking Elephants Across Namibia](https://visibleearth.nasa.gov/images/153333/tracking-elephants-across-namibia/153335w)
