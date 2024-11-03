@@ -33,13 +33,13 @@ body {
 }
 .paginator {
 
-  width: max-content;
+  width: 80vw;
+
 }
 section {
      
   display: grid;
-  grid-template-columns: max-content max-content 1fr;
-
+ 
   border-radius: 0px 0px 0px 0px;
   margin-top: 0px;
 width: 85vh; 
