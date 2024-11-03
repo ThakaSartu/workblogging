@@ -1,6 +1,6 @@
 ---
-layout:post
-mermaid:true
+layout: post
+mermaid: true
 ---
 
     
