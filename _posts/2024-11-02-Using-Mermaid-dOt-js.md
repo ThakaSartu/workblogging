@@ -1,4 +1,7 @@
-
+---
+layout:post
+mermaid:true
+---
 
     
 # Mermaid Sequence Diagram: Blogging app service communication
