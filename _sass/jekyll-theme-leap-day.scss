@@ -37,9 +37,8 @@ body {
 }
 section {
      
-  display : flex;
-  flex-wrap: wrap;
- object-fit: contain;
+  display: grid;
+  grid-template-columns: max-content max-content 1fr;
 
   border-radius: 0px 0px 0px 0px;
   margin-top: 0px;
