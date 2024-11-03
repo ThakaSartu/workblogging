@@ -28,10 +28,79 @@ html {
 }
 
 body {
-
+  display: flex;
+  justify-content: space-around;
 
 }
 
+section {
+     
+  display : flex;
+  flex-wrap: wrap;
+    object-fit: contain;
+
+  border-radius: 0px 0px 0px 0px;
+  margin-top: 0px;
+width: 85vh; 
+padding: 0px;
+  margin-bottom: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -188px;
+  line-height: 1.5;
+margin-right: auto;
+margin-left: auto; 	
+/* opera does not like 'margin:20px auto' */
+/* background: #666; */
+border: 1px solid white;
+background: url(https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04329/opgs/edr/ncam/NLB_781808042EDR_F1091998NCAM00354M_.JPG) no-repeat 0 0 fixed;
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/background-size */
+background-size: cover;
+
+/* background: url(https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/01046/ids/edr/browse/rcam/RRF_1046_0759804806_506ECM_N0495338RHAZ02420_01_295J01_800.jpg) no-repeat 0 0 fixed; */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/background-size */
+
+text-align:left; 
+/* part 2 of 2 centering hack */
+voice-family: "\"}\"";
+voice-family:inherit;
+ 
+
+box-shadow: rgba(255,255,255, 0.4) 5px 5px, rgba(255,255,255, 0.3) 10px 10px, rgba(255,255,255, 0.2) 15px 15px, rgba(255,255,255, 0.1) 20px 20px, rgba(255,255,255, 0.05) 25px 25px;font-family: 'Martian Mono',-apple-system, Ariel, Verdana; 
+/* color: #c9ff23;  */
+overflow-y: auto;
+}
+
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+
+} 
+
+
+  img[src*="cloudfront"] {width: 100%;
+    border-bottom:solid 10px  #FCE30070;}
+  img[alt*="USGS"] {width: 100%;
+    border-bottom:solid 10px  #BF785E;}
+  /* matches selection in URL/src */
+  img[src*="nasa.gov"] {width: 100%;
+    border-bottom:solid 10px  #c9ff2340;}
+  img[alt="kk"] {
+    width: 100%;
+    
+  }
+  img[alt="whiteslavery"] {
+    max-width: 15%;
+    float: right;
+  }
+  img[alt="whiteslavery40"] {
+    max-width: 40%;
+    transform: rotate(45deg);
+  }
+
+  
 svg { width:100%;}
 .jumpmenu {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; background-color: #0dd9c4; color: #3df28b; border: #3df28b; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; font-weight: bold
   ;}
@@ -87,6 +156,13 @@ p:first-of-type {
 .mermaid { width: 100%;}
 .mermaid:hover { width:150%;}
 
+ img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+/* or
+  object-fit: cover; */
+} 
 
 
   img[src*="cloudfront"] {width: 100%;
@@ -380,41 +456,6 @@ header {
   }
 }
 
-section {
-     
-    display : flex;
-    flex-wrap: wrap;
-    border-radius: 0px 0px 0px 0px;
-    margin-top: 0px;
-  width: 85vh; 
-  padding: 0px;
-    margin-bottom: 40px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: -188px;
-    line-height: 1.5;
-  margin-right: auto;
-  margin-left: auto; 	
-  /* opera does not like 'margin:20px auto' */
-  /* background: #666; */
-  border: 1px solid white;
-  background: url(https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04329/opgs/edr/ncam/NLB_781808042EDR_F1091998NCAM00354M_.JPG) no-repeat 0 0 fixed;
-  /* https://developer.mozilla.org/en-US/docs/Web/CSS/background-size */
-  background-size: cover;
-  
-  /* background: url(https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/01046/ids/edr/browse/rcam/RRF_1046_0759804806_506ECM_N0495338RHAZ02420_01_295J01_800.jpg) no-repeat 0 0 fixed; */
-  /* https://developer.mozilla.org/en-US/docs/Web/CSS/background-size */
- 
-  text-align:left; 
-  /* part 2 of 2 centering hack */
-  voice-family: "\"}\"";
-  voice-family:inherit;
-   
-  
-  box-shadow: rgba(255,255,255, 0.4) 5px 5px, rgba(255,255,255, 0.3) 10px 10px, rgba(255,255,255, 0.2) 15px 15px, rgba(255,255,255, 0.1) 20px 20px, rgba(255,255,255, 0.05) 25px 25px;font-family: 'Martian Mono',-apple-system, Ariel, Verdana; 
-  /* color: #c9ff23;  */
-  overflow-y: auto;
-  }
 
   
 
