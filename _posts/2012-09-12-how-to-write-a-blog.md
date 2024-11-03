@@ -15,7 +15,7 @@ Though located a world away, Lake Salda, Turkey, shares similar mineralogy as Je
 
 I hope you like it!
 
-<section>
+<section class="paginator">
   {% if site.posts[0] %}
 
     {% capture currentyear %}{{ 'now' | date: "%Y" }}{% endcapture %}
