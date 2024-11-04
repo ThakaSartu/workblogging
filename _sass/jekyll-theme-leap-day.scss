@@ -36,10 +36,10 @@ body {
   width: 80vw;
 
 }
-section {
-     
-  display: grid;
- 
+#content {
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
   border-radius: 0px 0px 0px 0px;
   margin-top: 0px;
 width: 85vh; 
@@ -72,6 +72,16 @@ box-shadow: rgba(255,255,255, 0.4) 5px 5px, rgba(255,255,255, 0.3) 10px 10px, rg
 overflow-y: auto;
 }
 
+#footer {
+  flex-wrap: wrap;
+  
+  display: inline;
+  grid-template-rows: auto auto auto;
+  background-color: black;
+  color: white;
+  padding: 5px;
+ 
+  }
 
 img {
   width: 100%;
@@ -490,16 +500,7 @@ nav {
 
 
 
-#footer {
-  flex-wrap: nowrap;
-  position: fixed;
-  display: inline;
-  grid-template-rows: auto auto auto;
-  background-color: black;
-  color: white;
-  padding: 5px;
-  position: fixed;
-  }
+
 
 @media print, screen and (max-width: 1060px) {
 
