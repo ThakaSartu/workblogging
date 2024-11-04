@@ -74,9 +74,11 @@ overflow-y: auto;
 
 
 img {
-  width: max-content;
+  width: 100%;
+  height: auto;
   object-fit: contain;
-
+/* or
+  object-fit: cover; */
 } 
 
 
@@ -99,6 +101,8 @@ img {
     max-width: 40%;
     transform: rotate(45deg);
   }
+  
+  
 
   
 svg { width:100%;}
@@ -130,20 +134,24 @@ p:first-of-type {
   }
 
 
-  a {
-    font-weight:400;
-    text-decoration:none;
-    color: #63c0f5;
-    text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
-  }
-  a,
   a:hover,
   a:visited a:hover {
-    color: #c9ff23;
-    padding: 0px;
+    font-size: 110%; 
+    color: #63c0f5;
+    text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
     
+    
+  
   }
   
+  a {
+    padding: 0px;
+    color:#29F247 ;
+    text-shadow: 0 0 5px rgba(41, 242, 71, 0.5);
+    transition: all .4s ease-out;
+  
+  
+  }
   
   
   a small {
@@ -155,36 +163,7 @@ p:first-of-type {
 
 .mermaid { width: 100%;}
 
- img {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-/* or
-  object-fit: cover; */
-} 
 
-
-  img[src*="cloudfront"] {width: 100%;
-    border-bottom:solid 10px  #FCE30070;}
-  img[alt*="USGS"] {width: 100%;
-    border-bottom:solid 10px  #BF785E;}
-  /* matches selection in URL/src */
-  img[src*="nasa.gov"] {width: 100%;
-    border-bottom:solid 10px  #c9ff2340;}
-  img[alt="kk"] {
-    width: 100%;
-    
-  }
-  img[alt="whiteslavery"] {
-    max-width: 15%;
-    float: right;
-  }
-  img[alt="whiteslavery40"] {
-    max-width: 40%;
-    transform: rotate(45deg);
-  }
-  
-  
 h1 {
   font: bolder 14px/18px 'Martian Mono',Arial,  "Lucida Sans Unicode", verdana, lucida, sans-serif; 
   
@@ -266,24 +245,7 @@ h3 {
 }
 
 
-a:hover,
-a:visited a:hover {
-  /*font-size: 130%; */
-  color: #63c0f5;
-  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
-  
-  
 
-}
-
-a {
-  padding: 0px;
-  color:#29F247 ;
-  text-shadow: 0 0 5px rgba(41, 242, 71, 0.5);
-  transition: all .4s ease-out;
-
-
-}
 
 ul{
   list-style-image:url('../images/bullet.png');
@@ -528,14 +490,17 @@ nav {
 
 
 
-footer {
-  width:180px;
+#footer {
+  flex-wrap: nowrap;
   position: fixed;
-  left:50%;
-  margin-left:-530px;
-  bottom:20px;
-  text-align: right;
-  line-height: 16px;
+  display: inline;
+  grid-template-rows: auto auto auto;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  position: fixed;
+  width: 55vw;
+
 }
 
 @media print, screen and (max-width: 1060px) {
