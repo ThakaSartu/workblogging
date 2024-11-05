@@ -2,8 +2,12 @@
 layout: post
 title:  "Mars2020 Today"
 published: true
+image: https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/01318/ids/edr/browse/ncam/NLF_1318_0783952370_633ECM_N0612534NCAM13318_01_195J01_1200.jpg
 ---
 
+
+
+![todaynov4](https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/01318/ids/edr/browse/ncam/NLF_1318_0783952370_633ECM_N0612534NCAM13318_01_195J01_1200.jpg)
 ## Mars Perseverance Sol 1317: Front Right Hazard Avoidance Camera (Hazcam)
 NASA's Mars Perseverance rover acquired this image of the area in front of it using its onboard Front Right Hazard Avoidance Camera A.
 
