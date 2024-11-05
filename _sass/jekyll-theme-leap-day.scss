@@ -267,7 +267,7 @@ strong {
 
 }
 
-section img {
+#content img {
   max-height: auto;
   max-width: 100%;
 
@@ -421,7 +421,7 @@ header {
   }
 }
 
-section {
+#content {
      
     display : flex;
     flex-wrap: wrap;
@@ -550,7 +550,7 @@ footer {
     display: none;
   }
 
-  header, section, footer {
+  header, content, footer {
     float:none;
 
     h1 {
