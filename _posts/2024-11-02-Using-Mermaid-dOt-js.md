@@ -2,6 +2,7 @@
 layout: post
 mermaid: true
 published: true
+image: mermaid.webp
 ---
 
     
