@@ -2,7 +2,7 @@
 layout: post
 title:  "Mars2020 Today"
 published: true
-image: https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/01318/ids/edr/browse/ncam/NLF_1318_0783952370_633ECM_N0612534NCAM13318_01_195J01_1200.jpg
+image: Mars_Perseverance_NLF_1318_0783952370_633ECM_N0612534NCAM13318_01_195J.png
 ---
 
 
