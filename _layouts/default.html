@@ -24,7 +24,7 @@
         <ul></ul>
       </nav>
 
-      <header class="top-container">
+      <header>
         <img src="https://raw.githubusercontent.com/ricoThaka/rashardmro/refs/heads/master/assets/images/nasalogo_whitetext_redwing.svg" width="500" />
         </header>
 <!-- wormLOGO 
@@ -32,35 +32,15 @@
         <IMG src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/NASA_Worm_logo.svg/508px-NASA_Worm_logo.svg.png" />
     </div>  -->
 
-      <content id="content" class="floatleft floatright">
+      <section class="floatleft floatright">
         {{ content }}
 
 
-        
 
-          
-          
-          
-          
-          <div class="css3badge">   <a href="https://github.com/ricothaka">
-            <img style="border:0;width:119px;height:31px"
-                src="https://github.githubassets.com/assets/GitHub-Logo-ee398b662d42.png
-                "
-                alt="ricothaka" />
-          </a>  
-             </div>
-          
-                <div class="css3badge"><a href="https://jigsaw.w3.org/css-validator/check/referer">
-                  <img style="border:0;width:88px;height:31px"
-                      src="http://jigsaw.w3.org/css-validator/images/vcss"
-                      alt="Valid CSS!" />
-              </a>
-                  
-                </div>
-          
-          
-          
 
+        <p>layout: default
+          title: HoleToAnotherUniVersE</p>
+          
           <div class="swatch">
               <div></div>
               <div></div>
@@ -2732,15 +2712,18 @@
               </div>
           
 
-            </content>
+      </section>
 
     </div>
     <script type="text/javascript" src="/js/lightbox.js"></script>
-    <link rel="stylesheet" href="/css/lightbox.css">
-    {% if page.mermaid %}
-    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-    <script>mermaid.initialize({startOnLoad:true});</script>
-    {% endif %}
-    
+<link rel="stylesheet" href="/css/lightbox.css">
   </body>
+
+  {% if page.mermaid %}
+  <script type="module">
+    import mermaid from '/js/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+
+  {% endif %}
 </html>
