@@ -3,43 +3,147 @@
 @import "rouge-base16-dark";
 @import url("https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&display=swap");
 
-html {
 
-  background-size: 100%;
-   font: normal 13px/18px 'Courier New', monospace, 'Martian Mono',Arial,  "Lucida Sans Unicode", verdana, lucida, sans-serif; 
-  
-    font-variation-settings:
-      "wdth" 100;
-   
-        margin: 0px;
-      padding: 0px 0 20px 0px;
-      font-size:100%;
-  
-    /* background-image: url("https://fgbg.art/static/svc_telephonePoles-7517ec4812af7eaa7b36b929dc045d95.gif"); sVC telephone poles */
-    /* background-image: url("https://fgbg.art/static/mvc_newYork-8a30ed825143d36b528b5f9826ed9fe3.gif"); spiderman mvc */
-    /*background-image: url("https://fgbg.art/static/motw_terry2-e7bbcf53ab92406bdbcb77a42546f5f1.gif");  terry bogard*/
-    /*  background-image: url("https://fgbg.art/static/mvc_drWilyBase-1d2ec60216b5dfe2cfd1df78ee3fa5ec.gif"); */
-     /* background-image: url("https://fgbg.art/static/mvc_newYork-8a30ed825143d36b528b5f9826ed9fe3.gif"); */
-     /* background-image: url("https://fgbg.art/static/aof3_library-3f491fd56f7a36828c14e5b3c02c2327.gif"); AoF3 Library */
-    /* background-image: url("https://fgbg.art/static/motw_downtown-cb25d556c94dde722c37d5cad1c924a6.gif"); dr wiley mvc */
-    /* background: url(https://raw.githubusercontent.com/ricoThaka/ricothaka.github.io/master/assets/MOSHED-2024-3-4-13-41-24.jpg) no-repeat 0 0 fixed; */
-    background: url(https://pbs.twimg.com/media/GZuZeUTb0AAo727?format=jpg&name=medium) no-repeat 0 0 fixed; 
-    background-size: cover;
-     line-height: 1.5;
-     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-    column-fill: balance;
-    word-break: break-all;
-    }
+html { 
+
+  font:14px/22px 'Courier New', monospace, 'Martian Mono',Arial,  "Lucida Sans Unicode", verdana, lucida, sans-serif; 
+   height:100vh;
+  background-color: #002DE0; /* For browsers that do not support gradients 
+    background-image: linear-gradient(#002DE0, #0032A0); 
+    background: rgb(0,45,224);
+  background: linear-gradient(90deg, rgba(0,45,224,1) 0%, rgba(0,50,160,1) 90%);
+  */background: url(https://eoimages.gsfc.nasa.gov/images/imagerecords/153000/153466/pyramidlake_oli2_20241008_lrg.jpg) no-repeat 0 0 fixed; 
+  background-size: cover;
+   line-height: 1.5;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  column-fill: balance;
+  word-break: break-all;
+  font-variation-settings:
+  "wdth" 100;
+}
 
 body {
 
 
 }
+.paginator {
+
+  width: 100vw;
+
+}
+
+.featured-post {
+  height: 400px;
+  margin: 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.featured-post h2 {
+  bottom: 0;
+  margin: 0;
+  padding: 10px;
+  position: absolute;
+}
+.featured-post h2 span {
+  display: inline-block;
+  color: white;
+  font: bold 24px/45px Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+.featured-post span a {
+  color: white;
+}
+.featured-post h1 {
+  margin: 10px;
+}
+
+
+#content {
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 0px 0px 0px 0px;
+  width: 85vh; 
+padding: 0px;
+  margin-bottom: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -188px;
+  line-height: 1.5;
+/* opera does not like 'margin:20px auto' */
+/* background: #666; */
+border: 1px solid white;
+background: url(https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04329/opgs/edr/ncam/NLB_781808042EDR_F1091998NCAM00354M_.JPG) no-repeat 0 0 fixed;
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/background-size */
+background-size: cover;
+
+/* background: url(https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/01046/ids/edr/browse/rcam/RRF_1046_0759804806_506ECM_N0495338RHAZ02420_01_295J01_800.jpg) no-repeat 0 0 fixed; */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/background-size */
+
+text-align:left; 
+/* part 2 of 2 centering hack */
+voice-family: "\"}\"";
+voice-family:inherit;
+ 
+
+box-shadow: rgba(255,255,255, 0.4) 5px 5px, rgba(255,255,255, 0.3) 10px 10px, rgba(255,255,255, 0.2) 15px 15px, rgba(255,255,255, 0.1) 20px 20px, rgba(255,255,255, 0.05) 25px 25px;font-family: 'Martian Mono',-apple-system, Ariel, Verdana; 
+/* color: #c9ff23;  */
+overflow-y: auto;
+}
+
+#footer {
+  flex-wrap: wrap;
+  
+  display: inline;
+  grid-template-rows: auto auto auto;
+  background-color: black;
+  color: white;
+  padding: 5px;
+ 
+  }
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+/* or
+  object-fit: cover; */
+} 
+
+
+  img[src*="cloudfront"] {width: 100%;
+    border-bottom:solid 10px  #FCE30070;}
+  img[alt*="USGS"] {width: 100%;
+    border-bottom:solid 10px  #BF785E;}
+  /* matches selection in URL/src */
+  img[src*="nasa.gov"] {width: 100%;
+    border-bottom:solid 10px  #c9ff2340;}
+  img[alt="kk"] {
+    width: 100%;
+    
+  }
+  img[alt="whiteslavery"] {
+    max-width: 15%;
+    float: right;
+  }
+  img[alt="whiteslavery40"] {
+    max-width: 40%;
+    transform: rotate(45deg);
+  }
+  
+  
+
+  
 svg { width:100%;}
 .jumpmenu {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; background-color: #0dd9c4; color: #3df28b; border: #3df28b; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; font-weight: bold
   ;}
@@ -65,24 +169,28 @@ margin: 20px;
 display:block;}
 
 p:first-of-type {
-   color:limegreen; 
+   color:dodgerblue; 
   }
 
 
-  a {
-    font-weight:400;
-    text-decoration:none;
-    color: #63c0f5;
-    text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
-  }
-  a,
   a:hover,
   a:visited a:hover {
-    color: #c9ff23;
-    padding: 0px;
+    font-size: 110%; 
+    color: #63c0f5;
+    text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
     
+    
+  
   }
   
+  a {
+    padding: 0px;
+    color:#29F247 ;
+    text-shadow: 0 0 5px rgba(41, 242, 71, 0.5);
+    transition: all .4s ease-out;
+  
+  
+  }
   
   
   a small {
@@ -92,65 +200,9 @@ p:first-of-type {
     display:block;
   }
 
+.mermaid { width: 100%;}
 
-  .paginator {
 
-    width: 100vw;
-  
-  }
-  
-  .featured-post {
-    height: 400px;
-    margin: 0px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
-  .featured-post h2 {
-    bottom: 0;
-    margin: 0;
-    padding: 10px;
-    position: absolute;
-  }
-  .featured-post h2 span {
-    display: inline-block;
-    color: white;
-    font: bold 24px/45px Helvetica, Sans-Serif;
-    letter-spacing: -1px;
-    background: rgb(0, 0, 0); /* fallback color */
-    background: rgba(0, 0, 0, 0.7);
-    padding: 10px;
-  }
-  .featured-post span a {
-    color: white;
-  }
-  .featured-post h1 {
-    margin: 10px;
-  }
-
-  
-  img[src*="cloudfront"] {width: 100%;
-    border-bottom:solid 10px  #FCE30070;}
-  img[alt*="USGS"] {width: 100%;
-    border-bottom:solid 10px  #BF785E;}
-  /* matches selection in URL/src */
-  img[src*="nasa.gov"] {width: 100%;
-    border-bottom:solid 10px  #c9ff2340;}
-  img[alt="kk"] {
-    width: 100%;
-    
-  }
-  img[alt="whiteslavery"] {
-    max-width: 15%;
-    float: right;
-  }
-  img[alt="whiteslavery40"] {
-    max-width: 40%;
-    transform: rotate(45deg);
-  }
-  
-  
 h1 {
   font: bolder 14px/18px 'Martian Mono',Arial,  "Lucida Sans Unicode", verdana, lucida, sans-serif; 
   
@@ -232,24 +284,7 @@ h3 {
 }
 
 
-a:hover,
-a:visited a:hover {
-  /*font-size: 130%; */
-  color: #63c0f5;
-  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
-  
-  
 
-}
-
-a {
-  padding: 0px;
-  color:#29F247 ;
-  text-shadow: 0 0 5px rgba(41, 242, 71, 0.5);
-  transition: all .4s ease-out;
-
-
-}
 
 ul{
   list-style-image:url('../images/bullet.png');
@@ -268,6 +303,15 @@ strong {
 }
 
 section img {
+  max-height: auto;
+  max-width: 100%;
+
+
+
+}
+
+
+content img {
   max-height: auto;
   max-width: 100%;
 
@@ -421,41 +465,6 @@ header {
   }
 }
 
-section {
-     
-    display : flex;
-    flex-wrap: wrap;
-    border-radius: 0px 0px 0px 0px;
-    margin-top: 0px;
-  width: 85vh; 
-  padding: 0px;
-    margin-bottom: 40px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: -188px;
-    line-height: 1.5;
-  margin-right: auto;
-  margin-left: auto; 	
-  /* opera does not like 'margin:20px auto' */
-  /* background: #666; */
-  border: 1px solid white;
-  background: url(https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04329/opgs/edr/ncam/NLB_781808042EDR_F1091998NCAM00354M_.JPG) no-repeat 0 0 fixed;
-  /* https://developer.mozilla.org/en-US/docs/Web/CSS/background-size */
-  background-size: cover;
-  
-  /* background: url(https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/01046/ids/edr/browse/rcam/RRF_1046_0759804806_506ECM_N0495338RHAZ02420_01_295J01_800.jpg) no-repeat 0 0 fixed; */
-  /* https://developer.mozilla.org/en-US/docs/Web/CSS/background-size */
- 
-  text-align:left; 
-  /* part 2 of 2 centering hack */
-  voice-family: "\"}\"";
-  voice-family:inherit;
-   
-  
-  box-shadow: rgba(255,255,255, 0.4) 5px 5px, rgba(255,255,255, 0.3) 10px 10px, rgba(255,255,255, 0.2) 15px 15px, rgba(255,255,255, 0.1) 20px 20px, rgba(255,255,255, 0.05) 25px 25px;font-family: 'Martian Mono',-apple-system, Ariel, Verdana; 
-  /* color: #c9ff23;  */
-  overflow-y: auto;
-  }
 
   
 
@@ -529,15 +538,7 @@ nav {
 
 
 
-footer {
-  width:180px;
-  position: fixed;
-  left:50%;
-  margin-left:-530px;
-  bottom:20px;
-  text-align: right;
-  line-height: 16px;
-}
+
 
 @media print, screen and (max-width: 1060px) {
 
@@ -550,11 +551,12 @@ footer {
     display: none;
   }
 
-  header, section, footer {
+  header, section, content, footer {
     float:none;
 
     h1 {
       white-space: nowrap;
+      background-color: #002DE0;
       overflow: hidden;
       text-overflow: ellipsis;
       -o-text-overflow: ellipsis;
@@ -578,6 +580,14 @@ footer {
   }
 
   section {
+    border:1px solid #e5e5e5;
+    border-width:1px 0;
+    padding:20px 0;
+    margin: 190px auto 20px;
+    max-width: 600px;
+  }
+
+  content {
     border:1px solid #e5e5e5;
     border-width:1px 0;
     padding:20px 0;
@@ -635,6 +645,12 @@ footer {
     width: auto;
   }
 
+  content {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: auto;
+  }
+
   header ul, header p.view {
     position:static;
   }
@@ -661,7 +677,9 @@ footer {
   section {
     margin-top: 0px;
   }
-
+  content {
+    margin-top: 0px;
+  }
   #banner { display: none;}
   header ul {
     display:none;
@@ -2683,4 +2701,5 @@ flex: 0 1 200px;
 flex: 1 1 200px;
 padding: 0px;
 }
+
 
