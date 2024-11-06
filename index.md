@@ -15,27 +15,23 @@ A new composite image built from 15 satellite passes shows the Arctic and northe
 
 
 
-<ul>
-  {% for post in site.posts %}
-      <li>
-      <div class="featured-post" {% if post.image %}style="background-image:url({{ site.github.url }}/assets/img/{{ post.image }})"{% endif %}>
-      <h2><a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a></h2>
-      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
-      <p>{{ post.content | strip_html | truncatewords:50 }}</p>
-      </li>
-  {% endfor %}
-</ul>
-{% comment %} 
-{% include paginator.md %}
-{% endcomment %}
+{% for post in paginator.posts %}
+  {% include featured-post.html %}
+{% endfor %}
+
 
 # GitHub Branching 
+
+
+
+[Solid Steel Radio Show: Mixed by DK, Strictly Kev, PC, The Butch Cassidy Sound System (Nov 22, 2004)](https://youtu.be/e_N4TYS1l60?t=4509) 
+
 <div class="mermaid">
 gitGraph:
     commit "normani"
     branch newbranch
     checkout newbranch
-    commit id:"1111"
+    commit id:"1218"
     commit tag:"test"
     checkout main
     commit type: HIGHLIGHT
@@ -45,10 +41,6 @@ gitGraph:
     branch b2
     commit
 </div> 
-
-
-[Solid Steel Radio Show: Mixed by DK, Strictly Kev, PC, The Butch Cassidy Sound System (Nov 22, 2004)](https://youtu.be/e_N4TYS1l60?t=4509) 
-
 
 [Tracking Elephants Across Namibia](https://visibleearth.nasa.gov/images/153333/tracking-elephants-across-namibia/153335w)
 ![Tracking Elephants Across Namibia](https://eoimages.gsfc.nasa.gov/images/imagerecords/153000/153333/AfricanElephant_pho_20190723.jpg)
