@@ -9,7 +9,7 @@
       </li>
   {% endfor %}
 </ul>
--->
+
 
 <article>
   <a href="{{ site.github.url }}{{ post.url }}">
