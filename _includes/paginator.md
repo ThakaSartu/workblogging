@@ -1,4 +1,4 @@
-<!--
+
 <ul>
   {% for post in site.posts %}
       <li>
@@ -9,7 +9,7 @@
       </li>
   {% endfor %}
 </ul>
--->
+
 
 <article>
   <a href="{{ site.github.url }}{{ post.url }}">
