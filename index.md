@@ -16,7 +16,7 @@ A new composite image built from 15 satellite passes shows the Arctic and northe
 
 
 
-{% include paginator.md %}
+{% include featured-post.html %}
 
 
 # GitHub Branching 
