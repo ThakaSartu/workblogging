@@ -2,19 +2,6 @@
 layout: default
 mermaid: true
 ---
-[JPL and the Space Age: Destination Moon](https://plus.nasa.gov/video/jpl-and-the-space-age-destination-moon/) @nasa-jpl i was watching it at the duratn hollywood library and when i was looking at my github page for sharig it shut off #sessionjacked [ucla: birthplace of the internet](https://conferences.ucla.edu/ucla-birthplace-of-the-internet/) [How to roll back Git code to a previous commit](https://www.techtarget.com/searchitoperations/answer/How-to-roll-back-Git-code-to-a-previous-commit#:~:text=Git%20revert%20example,see%20the%20current%20commit%20IDs.) [Jekyll Array](https://carpentries-incubator.github.io/jekyll-pages-novice/arrays/index.html)
-
-# The View from the Top 
-A new composite image built from 15 satellite passes shows the Arctic and northern latitudes as you have never seen them before. 
->Image by Norman Kuring, NASA/GSFC/Suomi NPP. Caption by Michael Carlowicz. Suomi NPP is the result of a partnership between NASA, NOAA and the Department of Defense.
-
->Published June 22, 2012
->Data acquired May 26, 2012
-
-[<img src="https://eoimages.gsfc.nasa.gov/images/imagerecords/78000/78349/arctic_vir_2012147_lrg.jpg" alt="" />](https://eoimages.gsfc.nasa.gov/images/imagerecords/78000/78349/arctic_vir_2012147_lrg.jpg)
-
-
-
 
   {% for post in site.posts %}
     
@@ -30,11 +17,28 @@ A new composite image built from 15 satellite passes shows the Arctic and northe
 
 
 
-# GitHub Branching 
+[JPL and the Space Age: Destination Moon](https://plus.nasa.gov/video/jpl-and-the-space-age-destination-moon/) @nasa-jpl i was watching it at the duratn hollywood library and when i was looking at my github page for sharig it shut off #sessionjacked [ucla: birthplace of the internet](https://conferences.ucla.edu/ucla-birthplace-of-the-internet/) [How to roll back Git code to a previous commit](https://www.techtarget.com/searchitoperations/answer/How-to-roll-back-Git-code-to-a-previous-commit#:~:text=Git%20revert%20example,see%20the%20current%20commit%20IDs.) [Jekyll Array](https://carpentries-incubator.github.io/jekyll-pages-novice/arrays/index.html)
+
+# The View from the Top 
+A new composite image built from 15 satellite passes shows the Arctic and northern latitudes as you have never seen them before. 
+>Image by Norman Kuring, NASA/GSFC/Suomi NPP. Caption by Michael Carlowicz. Suomi NPP is the result of a partnership between NASA, NOAA and the Department of Defense.
+
+>Published June 22, 2012
+>Data acquired May 26, 2012
+
+[<img src="https://eoimages.gsfc.nasa.gov/images/imagerecords/78000/78349/arctic_vir_2012147_lrg.jpg" alt="" />](https://eoimages.gsfc.nasa.gov/images/imagerecords/78000/78349/arctic_vir_2012147_lrg.jpg)
+
+
+
+
 
 
 
 [Solid Steel Radio Show: Mixed by DK, Strictly Kev, PC, The Butch Cassidy Sound System (Nov 22, 2004)](https://youtu.be/e_N4TYS1l60?t=4509) 
+
+# GitHub Branching 
+
+
 
 <div class="mermaid">
 gitGraph:
@@ -56,16 +60,6 @@ gitGraph:
 ![Tracking Elephants Across Namibia](https://eoimages.gsfc.nasa.gov/images/imagerecords/153000/153333/AfricanElephant_pho_20190723.jpg)
 [Solid Steel presents DJ Food & DK - "Now, Listen!" (full mixed CD)](https://www.youtube.com/watch?v=7z32WnNxDUY)
 [Atlas - Plaetary Data System](https://pds-imaging.jpl.nasa.gov/search/?fq=ATLAS_MISSION_NAME%3A%22viking%20orbiter%22&fq=-ATLAS_THUMBNAIL_URL%3Abrwsnotavail.jpg&q=*%3A*&start=72)
-
-### Small image
-
-![Martian Sunrise at Phoenix Landing Site, Sol 101](https://photojournal.jpl.nasa.gov/archive/PIA11201.gif)
-
-### Large image
-
-![Great Red Spot Rotation](https://photojournal.jpl.nasa.gov/archive/PIA22178.gif)
-
-
 
 
 
