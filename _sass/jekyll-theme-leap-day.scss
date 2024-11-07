@@ -345,7 +345,7 @@ p:first-of-type {
   }
   
 
-
+/* special image selectors types etc */
 img[src*="workflows/ci.yaml/badge.svg"] {width: 100%;}
 img[src*="https://badge.fury.io"] {width: 100%;}
 img[src*="img.shields.io/badge/Social-ricoThaka"] {width: 100%;}
@@ -360,12 +360,10 @@ img[alt="kk"] {
     width: 100%;}
 img[alt="whiteslavery"] {
     max-width: 15%;
-    float: right;
-  }
+    float: right;}
 img[alt="whiteslavery40"] {
     max-width: 40%;
-    transform: rotate(45deg);
-  }
+    transform: rotate(45deg);}
   
   
 h1 {
