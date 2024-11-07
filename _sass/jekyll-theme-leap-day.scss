@@ -36,6 +36,12 @@ html {
     word-break: break-all;
     }
 
+
+
+
+
+
+
 body {
 
 
@@ -235,47 +241,19 @@ h1 {
  #F2D338 0, #F2D338 75%, #262626 0);
 background-size: 80.4px 80.4px; */
 
-}@import "normalize";
-@import "fonts";
-@import "rouge-base16-dark";
-@import url("https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&display=swap");
-
-html {
-
-  background-size: 100%;
-   font: normal 13px/18px 'Courier New', monospace, 'Martian Mono',Arial,  "Lucida Sans Unicode", verdana, lucida, sans-serif; 
-  
-    font-variation-settings:
-      "wdth" 100;
-   
-        margin: 0px;
-      padding: 0px 0 20px 0px;
-      font-size:100%;
-  
-    /* background-image: url("https://fgbg.art/static/svc_telephonePoles-7517ec4812af7eaa7b36b929dc045d95.gif"); sVC telephone poles */
-    /* background-image: url("https://fgbg.art/static/mvc_newYork-8a30ed825143d36b528b5f9826ed9fe3.gif"); spiderman mvc */
-    /*background-image: url("https://fgbg.art/static/motw_terry2-e7bbcf53ab92406bdbcb77a42546f5f1.gif");  terry bogard*/
-    /*  background-image: url("https://fgbg.art/static/mvc_drWilyBase-1d2ec60216b5dfe2cfd1df78ee3fa5ec.gif"); */
-     /* background-image: url("https://fgbg.art/static/mvc_newYork-8a30ed825143d36b528b5f9826ed9fe3.gif"); */
-     /* background-image: url("https://fgbg.art/static/aof3_library-3f491fd56f7a36828c14e5b3c02c2327.gif"); AoF3 Library */
-    /* background-image: url("https://fgbg.art/static/motw_downtown-cb25d556c94dde722c37d5cad1c924a6.gif"); dr wiley mvc */
-    /* background: url(https://raw.githubusercontent.com/ricoThaka/ricothaka.github.io/master/assets/MOSHED-2024-3-4-13-41-24.jpg) no-repeat 0 0 fixed; */
-    background: url(https://pbs.twimg.com/media/GZuZeUTb0AAo727?format=jpg&name=medium) no-repeat 0 0 fixed; 
-    background-size: cover;
-     line-height: 1.5;
-     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-    column-fill: balance;
-    word-break: break-all;
-    }
-
-body {
+}
 
 
+@keyframes animate-pop {
+  0% {
+    opacity: 0;
+    transform: scale(0.5, 0.5);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
 }
 svg { width:100%;}
 .jumpmenu {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; background-color: #0dd9c4; color: #3df28b; border: #3df28b; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; font-weight: bold
