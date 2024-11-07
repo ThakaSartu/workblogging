@@ -15,13 +15,19 @@ A new composite image built from 15 satellite passes shows the Arctic and northe
 
 
 
-<ul>
+
   {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
+    
+   <article>
+  <a href="{{ site.github.url }}{{ post.url }}">
+    <div class="featured-post" {% if post.image %}style="background-image:url({{ site.github.url }}/assets/img/{{ post.image }})"{% endif %}>
+      <h2><span>{{ post.title }}</span></h2>
+    </div>
+  </a>
+</article>
+
   {% endfor %}
-</ul>
+
 
 
 # GitHub Branching 
