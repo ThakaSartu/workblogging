@@ -2,7 +2,7 @@
 layout: default
 mermaid: true
 ---
-[JPL and the Space Age: Destination Moon](https://plus.nasa.gov/video/jpl-and-the-space-age-destination-moon/) @nasa-jpl i was watching it at the duratn hollywood library and when i was looking at my github page for sharig it shut off #sessionjacked [ucla: birthplace of the internet](https://conferences.ucla.edu/ucla-birthplace-of-the-internet/) [How to roll back Git code to a previous commit](https://www.techtarget.com/searchitoperations/answer/How-to-roll-back-Git-code-to-a-previous-commit#:~:text=Git%20revert%20example,see%20the%20current%20commit%20IDs.)
+[JPL and the Space Age: Destination Moon](https://plus.nasa.gov/video/jpl-and-the-space-age-destination-moon/) @nasa-jpl i was watching it at the duratn hollywood library and when i was looking at my github page for sharig it shut off #sessionjacked [ucla: birthplace of the internet](https://conferences.ucla.edu/ucla-birthplace-of-the-internet/) [How to roll back Git code to a previous commit](https://www.techtarget.com/searchitoperations/answer/How-to-roll-back-Git-code-to-a-previous-commit#:~:text=Git%20revert%20example,see%20the%20current%20commit%20IDs.) [Jekyll Array](https://carpentries-incubator.github.io/jekyll-pages-novice/arrays/index.html)
 
 # The View from the Top 
 A new composite image built from 15 satellite passes shows the Arctic and northern latitudes as you have never seen them before. 
@@ -15,12 +15,6 @@ A new composite image built from 15 satellite passes shows the Arctic and northe
 
 
 
-{% for post in site.posts %}
-  {% include featured-post.html %}
-{% endfor %}
-
-
----
 
 <ul>
   {% for post in site.posts %}
