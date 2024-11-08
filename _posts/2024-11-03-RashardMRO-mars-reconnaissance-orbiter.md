@@ -5,6 +5,19 @@ published: true
 image: Mars_Perseverance_NLF_1318_0783952370_633ECM_N0612534NCAM13318_01_195J.png
 ---
 
+# Mars Reconnaissance Orbiter 
+>Jim Taylor, Dennis K. Lee, and Shervin Shambayati 
+## 6.1 Mission Overview
+The Mars Reconnaissance Orbiter (MRO) [1, 2] has a suite of instruments
+making observations at Mars, and it provides data-relay services for Mars
+landers and rovers. MRO was launched on August 12, 2005. The orbiter
+successfully went into orbit around Mars on March 10, 2006 and began
+reducing its orbit altitude and circularizing the orbit in preparation for the
+science mission. The orbit changing was accomplished through a process called
+aerobraking, in preparation for the “science mission” starting in November
+2006, followed by the “relay mission” starting in November 2008. MRO
+participated in the Mars Science Laboratory touchdown and surface mission
+that began in August 2012 (Chapter 7). [ReadMore - PDF](https://descanso.jpl.nasa.gov/monograph/series13/DeepCommo_Chapter6--141029.pdf)
 
 ### The Red Planet Mars
 An American scientist is able to contact and communicate with Mars with shattering political, economic, and spiritual repercussions. [imdb](https://www.imdb.com/title/tt0045073/)
@@ -18,15 +31,26 @@ An American scientist is able to contact and communicate with Mars with shatteri
 </video>
 
 
+![todaynov4](https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/01318/ids/edr/browse/ncam/NLF_1318_0783952370_633ECM_N0612534NCAM13318_01_195J01_1200.jpg)
+
+## Mars Perseverance Sol 1317: Front Right Hazard Avoidance Camera (Hazcam)
+NASA's Mars Perseverance rover acquired this image of the area in front of it using its onboard Front Right Hazard Avoidance Camera A.
+
+This image was acquired on Nov. 2, 2024 (Sol 1317) at the local mean solar time of 14:01:01.
+
+Image Credit: NASA/JPL-Caltech
+![mars2020](https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/01317/ids/edr/browse/fcam/FRF_1317_0783862084_745ECM_N0612080FHAZ00206_01_295J01_1200.jpg)
+
+
 [My Favorite Martian Season 1 Episode 1 (1963) My Favorite Martin](https://www.youtube.com/watch?v=9bg9AGmYv84)
 [My Favorite Martian Full Episodes Season 1 E20 - My Nephew The Artist](https://www.dailymotion.com/video/x822j08)
 [My Favorite Martian Full Episodes Season 3 E23 - When A Martian Makes His Violin Cry](https://www.dailymotion.com/video/x81hpd9)
 [Full text of "The book of Mars"](https://archive.org/stream/bookofmars00glas/bookofmars00glas_djvu.txt)
 
-{% include unixingandroid.md %}
 
 [Markdownify includes #1303](https://github.com/jekyll/jekyll/issues/1303)
 - What we usually do is a capture block - [ParkeR Moore](https://github.com/parkr) [@parkr]
+
 ### WorkingRemote - Jun 22, 2024 worklog
 Im not stable in LongBeach right now so im working out of every library on the Subway and LightRail Metrolosangeles lines, Im working on my personal web infrastructure. I lost me Momentum on my M_R_O and Cassini work i was compiling. I keep my favorites in Google Chrome but if i cannot get to a place that will let me use my ChromeProfile im super disabled. Please bear with me! I have Typography work thats not life or death but it got me a logical chance to send a tweet to vogue. I know magazines get taken over so im not a threat to talk to them. But there was friction between me and the girls bodygaurds. They were stalking me. I can swear I saw muna in an issue when i Arrived. I cant talk to Cardi_B! She know everything! I am learning how to turn content into like Magnatiles with [Flexbox](https://www.w3schools.com/css/css3_flexbox_items.asp). I feel so much anger from the public! Im miserable! PPL were poisoning me at the base,m well everyone, a lady talked to me in the supermarket by Mori(Jose pi Place) and said she had Abestos poison from working in #MissionControl Covid all that shits a scam! She had the same symptoms I wake up with at After dealing with Childrens Hospital and Cancer only to find my late wife is with an athlete that has a bigger dick than me...
 
@@ -1599,139 +1623,3 @@ Clementine was launched on 25 January 1994 at 16:34 UTC (12:34 PM EDT) from Vand
 
 
 
-
-![todaynov4](https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/01318/ids/edr/browse/ncam/NLF_1318_0783952370_633ECM_N0612534NCAM13318_01_195J01_1200.jpg)
-## Mars Perseverance Sol 1317: Front Right Hazard Avoidance Camera (Hazcam)
-NASA's Mars Perseverance rover acquired this image of the area in front of it using its onboard Front Right Hazard Avoidance Camera A.
-
-This image was acquired on Nov. 2, 2024 (Sol 1317) at the local mean solar time of 14:01:01.
-
-Image Credit: NASA/JPL-Caltech
-![mars2020](https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/01317/ids/edr/browse/fcam/FRF_1317_0783862084_745ECM_N0612080FHAZ00206_01_295J01_1200.jpg)
-![bakersfield](_posts/2024-11-01-Tracking-Water-Movement.md)
-# Welcome
-
-**Hello world**, this is my first Jekyll blog post.
-
-I hope you like it!
-
-
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
-
-[Link to another page](another-page).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# [](#header-1)Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## [](#header-2)Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### [](#header-3)Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### [](#header-4)Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### [](#header-5)Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### [](#header-6)Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
