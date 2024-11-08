@@ -1,53 +1,15 @@
 ---
 layout: post
 title:  "Jez like Mars"
-published: true
+published: false
 ---
 
-# Welcome
-Though located a world away, Lake Salda, Turkey, shares similar mineralogy as Jezero Crater on Mars.
 
-[<img src="https://eoimages.gsfc.nasa.gov/images/imagerecords/147000/147041/lakesalda_oli_2020159_th.jpg" alt="NASA Earth Observatory image by Lauren Dauphin, using Landsat data from the U.S. Geological Survey. " />](https://eoimages.gsfc.nasa.gov/images/imagerecords/147000/147041/lakesalda_oli_2020159_th.jpg)
-[<img src="https://eoimages.gsfc.nasa.gov/images/imagerecords/147000/147041/lakesalda_oli_2020159_lrg.jpg" alt="NASA Earth Observatory image by Lauren Dauphin, using Landsat data from the U.S. Geological Survey. " />](https://eoimages.gsfc.nasa.gov/images/imagerecords/147000/147041/lakesalda_oli_2020159_lrg.jpg)
-[<img src="https://eoimages.gsfc.nasa.gov/images/imagerecords/147000/147041/lakesalda_oli_2020159.jpg" alt="NASA Earth Observatory image by Lauren Dauphin, using Landsat data from the U.S. Geological Survey. " />](https://eoimages.gsfc.nasa.gov/images/imagerecords/147000/147041/lakesalda_oli_2020159.jpg)
 
 **Hello world**, this is my first Jekyll blog post.
 
 I hope you like it!
 
-<section>
-  {% if site.posts[0] %}
-
-    {% capture currentyear %}{{ 'now' | date: "%Y" }}{% endcapture %}
-    {% capture firstpostyear %}{{ site.posts[0].date | date: '%Y' }}{% endcapture %}
-    {% if currentyear == firstpostyear %}
-        <h3>This year's posts</h3>
-    {% else %}  
-        <h3>{{ firstpostyear }}</h3>
-    {% endif %}
-
-    {%for post in site.posts %}
-      {% unless post.next %}
-        <ul>
-      {% else %}
-        {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-        {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-        {% if year != nyear %}
-          </ul>
-          <h3>{{ post.date | date: '%Y' }}</h3>
-          <ul>
-        {% endif %}
-      {% endunless %}
-        <li><time>{{ post.date | date:"%d %b" }} - </time>
-          <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-            {{ post.title }}
-          </a>
-        </li>
-    {% endfor %}
-    </ul>
-
-  {% endif %}
-</section>
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 

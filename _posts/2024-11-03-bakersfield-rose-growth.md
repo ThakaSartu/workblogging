@@ -1,9 +1,12 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-published: false
+title:  "BAKERSFiELD"
+published: true
+image: wasco_ast_2011191_lrg.jpg
 ---
 
+[ASTRALWERKS CASSETTE SAMPLER SUMMER 1994](https://youtu.be/kypmFar9CRE?t=1248)
+![BAKERSFiELD](https://eoimages.gsfc.nasa.gov/images/imagerecords/80000/80595/wasco_ast_2011191_lrg.jpg)
 # Welcome
 
 **Hello world**, this is my first Jekyll blog post.

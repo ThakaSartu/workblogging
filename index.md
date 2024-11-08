@@ -3,6 +3,22 @@ layout: default
 mermaid: true
 ---
 
+  {% for post in site.posts %}
+    
+<article class="paginator">
+  <a href="{{ site.github.url }}{{ post.url }}">
+    <div class="featured-post" {% if post.image %}style="background-image:url({{ site.github.url }}/assets/img/{{ post.image }})"{% endif %}>
+      <h2><span>{{ post.title }}</span></h2>
+    </div>
+  </a>
+</article>
+
+  {% endfor %}
+
+
+
+[JPL and the Space Age: Destination Moon](https://plus.nasa.gov/video/jpl-and-the-space-age-destination-moon/) @nasa-jpl i was watching it at the duratn hollywood library and when i was looking at my github page for sharig it shut off #sessionjacked [ucla: birthplace of the internet](https://conferences.ucla.edu/ucla-birthplace-of-the-internet/) [How to roll back Git code to a previous commit](https://www.techtarget.com/searchitoperations/answer/How-to-roll-back-Git-code-to-a-previous-commit#:~:text=Git%20revert%20example,see%20the%20current%20commit%20IDs.) [Jekyll Array](https://carpentries-incubator.github.io/jekyll-pages-novice/arrays/index.html)
+
 # The View from the Top 
 A new composite image built from 15 satellite passes shows the Arctic and northern latitudes as you have never seen them before. 
 >Image by Norman Kuring, NASA/GSFC/Suomi NPP. Caption by Michael Carlowicz. Suomi NPP is the result of a partnership between NASA, NOAA and the Department of Defense.
@@ -16,16 +32,20 @@ A new composite image built from 15 satellite passes shows the Arctic and northe
 
 
 
-{% include paginator.md %}
 
+
+[Solid Steel Radio Show: Mixed by DK, Strictly Kev, PC, The Butch Cassidy Sound System (Nov 22, 2004)](https://youtu.be/e_N4TYS1l60?t=4509) 
 
 # GitHub Branching 
+
+
+
 <div class="mermaid">
 gitGraph:
     commit "normani"
     branch newbranch
     checkout newbranch
-    commit id:"1111"
+    commit id:"1218"
     commit tag:"test"
     checkout main
     commit type: HIGHLIGHT
@@ -36,28 +56,17 @@ gitGraph:
     commit
 </div> 
 
-
-[Solid Steel Radio Show: Mixed by DK, Strictly Kev, PC, The Butch Cassidy Sound System (Nov 22, 2004)](https://youtu.be/e_N4TYS1l60?t=4509) 
-
-
 [Tracking Elephants Across Namibia](https://visibleearth.nasa.gov/images/153333/tracking-elephants-across-namibia/153335w)
 ![Tracking Elephants Across Namibia](https://eoimages.gsfc.nasa.gov/images/imagerecords/153000/153333/AfricanElephant_pho_20190723.jpg)
 [Solid Steel presents DJ Food & DK - "Now, Listen!" (full mixed CD)](https://www.youtube.com/watch?v=7z32WnNxDUY)
 [Atlas - Plaetary Data System](https://pds-imaging.jpl.nasa.gov/search/?fq=ATLAS_MISSION_NAME%3A%22viking%20orbiter%22&fq=-ATLAS_THUMBNAIL_URL%3Abrwsnotavail.jpg&q=*%3A*&start=72)
 
-### Small image
-
-![Martian Sunrise at Phoenix Landing Site, Sol 101](https://photojournal.jpl.nasa.gov/archive/PIA11201.gif)
-
-### Large image
-
-![Great Red Spot Rotation](https://photojournal.jpl.nasa.gov/archive/PIA22178.gif)
-
-
-
 
 
 # Rashard Kelly NasaJpl MRO JUNO iSS
+<style>
+svg  {width: 100%; height: auto;}
+</style>
 
 [![Twitter Follow](https://img.shields.io/badge/Social-ricoThaka__-blue?style=social&logo=X)](https://twitter.com/ricothaka)
 [![.github/workflows/ci.yaml](https://github.com/pages-themes/leap-day/actions/workflows/ci.yaml/badge.svg)](https://github.com/pages-themes/leap-day/actions/workflows/ci.yaml) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-leap-day.svg)](https://badge.fury.io/rb/jekyll-theme-leap-day)
